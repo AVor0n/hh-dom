@@ -1,0 +1,36 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 100px;
+}
+
+.source {
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    cursor: grab;
+}
+
+.targets {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.target {
+    width: 500px;
+    height: 500px;
+    border: solid 1px black;
+    overflow: hidden;
+}
+
+.target-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.target-free {
+    position: relative;
+}
